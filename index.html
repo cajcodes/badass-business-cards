@@ -160,6 +160,16 @@
             margin-right: 10px;
             color: var(--accent-color);
         }
+        
+        .contact-link {
+            color: var(--text-color);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        
+        .contact-link:hover {
+            color: var(--accent-color);
+        }
 
         .social-links {
             display: flex;
@@ -302,15 +312,15 @@
                     <div class="contact-info">
                         <div class="contact-item">
                             <i class="fas fa-envelope"></i>
-                            <span>chris@caj.ai</span>
+                            <a href="mailto:chris@caj.ai" class="contact-link">chris@caj.ai</a>
                         </div>
                         <div class="contact-item">
                             <i class="fas fa-phone"></i>
-                            <span>+1 (469) 922-0654</span>
+                            <a href="tel:4699220654" class="contact-link">(469) 922-0654</a>
                         </div>
                         <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Houston, TX 77042</span>
+                            <i class="fas fa-globe"></i>
+                            <a href="https://www.caj.ai" class="contact-link">www.caj.ai</a>
                         </div>
                     </div>
                     
