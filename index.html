@@ -116,7 +116,11 @@
         .card-content {
             text-align: left;
             z-index: 1;
-            margin-left: 50px; /* Add margin to prevent overlap with logo */
+        }
+        
+        /* Add left margin only to the front card content to prevent overlap with logo */
+        .card-front .card-content {
+            margin-left: 50px;
         }
 
         .name {
